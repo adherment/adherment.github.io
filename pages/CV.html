@@ -11,8 +11,9 @@
               <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
         <title>Portfolio d'Adrien Dherment (BTS SIO 2020)</title>
-        <link rel="icon" href="favicon.ico">
+        <link rel="icon" href="../favicon.ico">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/cv.css" rel="stylesheet">
     </head>
     <body>
         <!-- Optional JavaScript -->
@@ -31,12 +32,12 @@
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li class="active nav-item">
-                            <a href="index.html" class="nav-link">
+                            <a href="../index.html" class="nav-link">
                                 <span class="fa fa-home"></span> Accueil
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/cv.html" class="nav-link">
+                            <a href="cv.html" class="nav-link">
                                 <span class="fa fa-id-badge"></span> CV 
                             </a>             
                         </li>
@@ -119,30 +120,30 @@
         </nav>    
         <div class="jumbotron">
             <div class="container">
-                <h1>Bonjour et bienvenue sur mon portfolio !</h1>
-                <div class="row">
-                    <div class="col-lg-2">
-                        <div class="well">
-                            <img src="images/AmeliaPilou.jpg" class="img-rounded" alt="Ma photo d'identité">
+                <div class="row cadreCV">          
+                    <div id="cv-entete" class="text-center">            
+                        <div id="cv-photo">              
+                            <img src="../images/AmeliaPilou.jpg" alt="Ma photo d'identité">
+                        </div>            
+                        <div id="cv-intro">
+                            <h1>Bonjour, je m'appelle OUI et voici mon CV</h1>
+                        </div>          
+                    </div>        
+                </div>
+                <div class="row cadreCV">
+                    <div class="col-xs-12 col-sm-7"><!-- Partie gauche -->
+                        <div class="rubrique clearfix">              
+                            <h2><span class="fa fa-comment"></span> En quelques mots...</h2>
+                            <p>J'ai 21 ans, j'habite Toulon et je suis passionnée d'informatique et de
+                                nouvelles technologies depuis mon plus jeune âge. Je suis actuellement un
+                                BTS Services Informatiques aux Organisations ce qui m'a décidé à aller au
+                                delà de la passion, afin de faire de l'informatique et plus particulièrement
+                                du développement d'applications, mon métier&nbsp;!
+                            </p>           
                         </div>
-                    </div>
-                    <div class="col-lg-10">
-                        <div class="well">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Nunc ac diam sagittis, laoreet augue et, auctor arcu. 
-                                Cras et mi dui. In rutrum massa quis enim gravida, vitae 
-                                pretium enim sollicitudin. Vivamus id diam nec massa accumsan
-                                consequat. Vivamus augue arcu, luctus in malesuada at, consequat
-                                a enim. Morbi a facilisis ipsum. Nunc eget rutrum tortor, in 
-                                elementum nunc. Sed bibendum tempor sollicitudin. Pellentesque 
-                                in ornare justo.
-                            </p>
-                            <p><a class="btn btn-primary" href="pages/cv.html" target="_blank"
-                                  role="button">En savoir plus »</a>
-                            </p>
-                        </div>
-                    </div>
+                    </div>          
+                    <div class="col-xs-12 col-sm-5"><!-- Partie droite -->
+                    </div>        
                 </div>
             </div>
         </div>
@@ -203,3 +204,4 @@
         </footer>
     </body>
 </html>
+
